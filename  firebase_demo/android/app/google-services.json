@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "717011107585",
+    "project_id": "usingfirebase-9ca47",
+    "storage_bucket": "usingfirebase-9ca47.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:717011107585:android:2a4b5a677831ca5c4aa500",
+        "android_client_info": {
+          "package_name": "belghith.isra.firebase_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "717011107585-4bbi92egqkb1pg8lr7ga9jme80793ls9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBEfTNKCcObIqQMjpHEbdKxcr-DS-Ou1U0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "717011107585-4bbi92egqkb1pg8lr7ga9jme80793ls9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

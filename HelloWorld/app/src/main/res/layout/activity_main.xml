@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="82dp"
+            android:gravity="center"
+            android:rotationX="-8"
+            android:text="Calculatrice"
+            android:textColor="@color/orange"
+            android:textSize="20dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/texte1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="entier1" />
+
+            <EditText
+                android:id="@+id/texte2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="entier2"
+                tools:ignore="DuplicateIds" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="84dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+           <RadioGroup
+               android:layout_height="match_parent"
+               android:orientation="horizontal"
+               android:gravity="center"
+               android:layout_width="match_parent">
+               <RadioButton
+                   android:id="@+id/r1"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="+"
+                   android:layout_weight="1"
+                   />
+
+               <RadioButton
+                   android:id="@+id/r2"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="-"
+                   android:layout_weight="1"
+                   />
+
+               <RadioButton
+                   android:id="@+id/r3"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="*"
+                   android:layout_weight="1"
+                   />
+
+               <RadioButton
+                   android:id="@+id/r4"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:text="/"
+                   android:layout_weight="1"
+                   />
+           </RadioGroup>
+
+
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="="
+            android:id="@+id/btn"
+
+             />
+    </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="112dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/res"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Résultat"
+               />
+        </LinearLayout>
+    </LinearLayout>
+
+    </LinearLayout>
